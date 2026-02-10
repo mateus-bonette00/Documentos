@@ -12,6 +12,7 @@ import { Friends } from './components/Friends'
 import { Verse } from './components/Verse'
 import { EmergencyButton } from './components/EmergencyButton'
 import { Footer } from './components/Footer'
+import { BackgroundMusic } from './components/BackgroundMusic'
 
 function App() {
   const [entered, setEntered] = useState(false)
@@ -34,6 +35,7 @@ function App() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="min-h-dvh"
         >
+          <BackgroundMusic />
           <Hero />
           <WhenISawYou />
           <ChildhoodLara />
