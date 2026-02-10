@@ -56,7 +56,7 @@ export function OurMemories() {
             onPhotoClick={setLightboxSrc}
           />
           <p className="mt-4 text-center text-sm italic text-text-muted">
-            Eu gosto da gente. Mesmo quando você faz careta na foto.
+            Eu gosto da gente, mesmo quando estamos bêbados e não saímos bem nas fotos.
           </p>
         </motion.div>
 

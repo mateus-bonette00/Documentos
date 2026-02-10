@@ -17,11 +17,11 @@ export function Italy() {
 
         <GlassCard className="mb-8">
           <p className="text-base leading-relaxed text-text-secondary md:text-lg">
-            Eu sei que a Itália mora dentro de você. Cada vez que você fala das ruas de
-            Roma, dos canais de Veneza, seus olhos brilham de um jeito que me faz querer
-            te levar pra lá agora. E pode guardar essa promessa: a gente vai. Vai pisar
-            naquelas pedras juntos, vai comer a melhor pizza da vida, vai ver o pôr do sol
-            mais bonito do mundo de mãos dadas. Você merece cada segundo disso.
+            A Itália pra mim não é um lugar. É uma cena. Você rindo baixinho do meu lado,
+            uma rua bonita que a gente achou sem querer, a luz dourada batendo no seu rosto
+            e eu pensando que eu queria guardar aquele momento pra sempre. Eu não preciso que
+            você fale disso toda hora pra eu querer realizar. Eu só preciso de você. E eu
+            prometo: um dia a gente vai estar lá.
           </p>
         </GlassCard>
 
