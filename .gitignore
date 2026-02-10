@@ -1,0 +1,11 @@
+# Keep this repository focused on the current project only.
+/*
+
+# Keep this file tracked.
+!/.gitignore
+
+# Allow the path to the active project.
+!/Projetos/
+/Projetos/*
+!/Projetos/site-lara/
+!/Projetos/site-lara/**
