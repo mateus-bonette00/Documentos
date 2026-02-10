@@ -14,15 +14,19 @@ export function ChildhoodLara() {
   return (
     <Section id="lara-crianca" className="bg-gradient-to-b from-sunshine-50 to-cream">
       <div className="mx-auto max-w-2xl">
-        <SectionTitle subtitle="Uma viagem ate aqui.">
-          A Lara crianca
+        <SectionTitle subtitle="Uma viagem até aqui.">
+          A Lara criança
         </SectionTitle>
 
         <GlassCard className="mb-8">
           <p className="text-base leading-relaxed text-text-secondary md:text-lg">
-            A Lara crianca imaginava onde ela estaria? Eu acho que ela ficaria
-            encantada com a Lara medica. Ela olharia pra voce e pensaria:
-            "entao e isso que eu vou ser? que demais."
+            Será que a Lara criança ia imaginar que um dia a Lara adulta ia virar médica,
+            e mais ainda, cirurgiã? Aquela Larinha que brincava em Ouro Fino, do jeitinho
+            mais simples, talvez nem sonhasse com um futuro tão brilhante, mas ele estava
+            lá, escondidinho, crescendo com ela. E o mais bonito é isso: ela não virou
+            médica do nada. Ela virou porque aguentou, insistiu, caiu e levantou de novo.
+            Hoje, quando a Lara adulta coloca o jaleco, é como se ela estivesse dizendo
+            pra Lara criança: "eu consegui. Eu não desisti de você."
           </p>
         </GlassCard>
 
@@ -62,7 +66,7 @@ export function ChildhoodLara() {
         >
           <GlassCard className="border-sunshine-300/50 bg-sunshine-100/60 text-center">
             <h3 className="font-display text-xl font-bold text-text-primary md:text-2xl">
-              Voce e suficiente sim, Lara.
+              Você é suficiente sim, Lara.
             </h3>
             <p className="mt-2 text-sm text-text-muted">
               (toca aqui)
@@ -74,7 +78,7 @@ export function ChildhoodLara() {
                   animate={{ opacity: 1, y: 0, height: 'auto' }}
                   className="mt-4 font-display text-lg font-semibold text-sunshine-700"
                 >
-                  Orgulho e pouco.
+                  Você venceu dias que ninguém viu.
                 </motion.p>
               )}
             </AnimatePresence>

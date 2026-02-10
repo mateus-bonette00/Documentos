@@ -50,7 +50,7 @@ export function EntryScreen({ onEnter }: EntryScreenProps) {
               Uma coisinha para quando o mundo pesar
             </h1>
             <p className="mt-3 text-sm text-text-secondary">
-              Esse lugar e so seu.
+              Esse lugar é só seu.
             </p>
           </motion.div>
 
@@ -102,7 +102,7 @@ export function EntryScreen({ onEnter }: EntryScreenProps) {
                       exit={{ opacity: 0, height: 0 }}
                       className="text-sm text-warm-500"
                     >
-                      Hmm, nao e esse nome. Tenta de novo.
+                      Hmm, não é esse nome. Tenta de novo.
                     </motion.p>
                   )}
                 </AnimatePresence>

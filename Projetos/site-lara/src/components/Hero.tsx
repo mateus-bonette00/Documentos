@@ -15,7 +15,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <h1 className="font-display text-4xl font-extrabold leading-tight text-text-primary md:text-5xl lg:text-6xl">
-            Lara, voce e{' '}
+            Lara, você é{' '}
             <span className="bg-gradient-to-r from-sunshine-600 to-warm-500 bg-clip-text text-transparent">
               suficiente.
             </span>
@@ -28,7 +28,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="mt-5 text-lg text-text-secondary md:text-xl"
         >
-          Voce e a minha pessoa certa.
+          Você é a minha pessoa certa.
         </motion.p>
 
         <motion.p
@@ -37,7 +37,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.9 }}
           className="mt-2 text-base text-text-muted"
         >
-          E esse site e so pra te lembrar disso.
+          E esse site é só pra te lembrar disso.
         </motion.p>
 
         <motion.div
@@ -52,7 +52,7 @@ export function Hero() {
             whileTap={{ scale: 0.97 }}
             className="inline-block rounded-xl bg-gradient-to-r from-sunshine-400 to-sunshine-500 px-7 py-4 font-display text-base font-semibold text-text-primary shadow-lg shadow-sunshine-300/30"
           >
-            Abrir um abraco
+            Abrir um abraço
           </motion.a>
           <motion.a
             href="#lara-crianca"
@@ -60,7 +60,7 @@ export function Hero() {
             whileTap={{ scale: 0.97 }}
             className="inline-block rounded-xl border-2 border-sunshine-300 bg-white/50 px-7 py-4 font-display text-base font-semibold text-text-primary backdrop-blur-sm"
           >
-            Ver o que eu vejo em voce
+            Ver o que eu vejo em você
           </motion.a>
         </motion.div>
       </div>

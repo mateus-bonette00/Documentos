@@ -11,15 +11,17 @@ export function Italy() {
   return (
     <Section className="overflow-hidden bg-gradient-to-b from-sunshine-100/50 via-sunshine-200/30 to-warm-100/30">
       <div className="mx-auto max-w-2xl">
-        <SectionTitle subtitle="Seu sonho. E nosso plano.">
-          Italia
+        <SectionTitle subtitle="O seu sonho. O nosso plano.">
+          Itália
         </SectionTitle>
 
         <GlassCard className="mb-8">
           <p className="text-base leading-relaxed text-text-secondary md:text-lg">
-            Eu sei que a Italia vive na sua cabeca. As ruas de Roma,
-            a luz de Florenca, o som da agua em Veneza. Pode acreditar:
-            a gente vai. E vai ser do jeitinho que voce merece.
+            Eu sei que a Itália mora dentro de você. Cada vez que você fala das ruas de
+            Roma, dos canais de Veneza, seus olhos brilham de um jeito que me faz querer
+            te levar pra lá agora. E pode guardar essa promessa: a gente vai. Vai pisar
+            naquelas pedras juntos, vai comer a melhor pizza da vida, vai ver o pôr do sol
+            mais bonito do mundo de mãos dadas. Você merece cada segundo disso.
           </p>
         </GlassCard>
 
@@ -69,10 +71,10 @@ export function Italy() {
               >
                 <div className="rounded-xl border-4 border-dashed border-sunshine-600 px-8 py-5">
                   <p className="font-display text-3xl font-extrabold tracking-widest text-sunshine-700 md:text-4xl">
-                    ITALIA
+                    ITÁLIA
                   </p>
                   <p className="mt-1 text-xs font-semibold tracking-wider text-sunshine-600">
-                    APROVADO - LARA & MATEUS
+                    APROVADO — LARA & MATEUS
                   </p>
                 </div>
               </motion.div>
@@ -86,7 +88,7 @@ export function Italy() {
             transition={{ delay: 0.5 }}
             className="mt-8 text-base italic text-text-secondary"
           >
-            A gente vai. E vai ser do jeitinho que voce merece.
+            A gente vai. E vai ser lindo demais.
           </motion.p>
         </div>
       </div>

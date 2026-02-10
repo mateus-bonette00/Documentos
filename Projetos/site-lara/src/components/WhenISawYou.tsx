@@ -14,10 +14,10 @@ export function WhenISawYou() {
 
         <GlassCard className="mb-8">
           <p className="text-base leading-relaxed text-text-secondary md:text-lg">
-            Eu nao acredito em coincidencia. Quando eu te vi pela primeira vez,
-            alguma coisa dentro de mim ja sabia que voce era a pessoa certa.
-            Nao foi magica instantanea -- foi mais como reconhecer alguem que
-            eu ja tava esperando sem saber.
+            Eu não acredito em coincidência. Quando eu te vi pela primeira vez,
+            alguma coisa dentro de mim já sabia que você era a pessoa certa.
+            Não foi mágica instantânea, foi mais como reconhecer alguém que
+            eu já tava esperando sem saber.
           </p>
         </GlassCard>
 

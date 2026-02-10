@@ -13,14 +13,17 @@ export function Residency() {
     <Section className="bg-gradient-to-b from-cream to-sunshine-100/50">
       <div className="mx-auto max-w-2xl">
         <SectionTitle subtitle="Cirurgia Geral. Nada menos.">
-          Residencia
+          Residência
         </SectionTitle>
 
         <GlassCard className="mb-8">
           <p className="text-base leading-relaxed text-text-secondary md:text-lg">
-            Voce escolheu uma das areas mais desafiadoras da Medicina e vai
-            brilhar nela. Nao porque e facil, mas porque voce nunca precisou
-            que fosse facil pra dar conta.
+            Quando você disse que queria Cirurgia Geral, eu não tive nem uma sombra de
+            dúvida. Você nasceu pra isso. Não é sobre ser fácil, é sobre ser você:
+            aquela que não desiste, que estuda até quando o corpo pede pra parar,
+            que cuida dos outros como se cada vida fosse a coisa mais importante do mundo.
+            E eu vou estar aqui, em cada plantão, em cada conquista, te lembrando do
+            quanto eu tenho orgulho de você.
           </p>
         </GlassCard>
 
@@ -53,7 +56,7 @@ export function Residency() {
           </div>
         </div>
 
-        {/* Foto de pijama cirurgico */}
+        {/* Foto de pijama cirúrgico */}
         <div className="mb-8">
           <motion.button
             whileHover={{ scale: 1.02 }}
@@ -102,13 +105,13 @@ export function Residency() {
           ))}
         </div>
 
-        {/* Galeria IA - facilmente expandivel */}
+        {/* Galeria IA */}
         <div className="mt-10">
           <h3 className="mb-4 font-display text-lg font-bold text-text-primary">
-            Lara cirurgia em versao IA
+            Lara cirurgiã em versão IA
           </h3>
           <p className="mb-4 text-sm text-text-muted">
-            Ate a inteligencia artificial sabe que voce e incrivel.
+            Até a inteligência artificial sabe que você é incrível.
           </p>
           <div className="grid grid-cols-1 gap-4">
             {surgeryIAPhotos.map((photo, i) => (

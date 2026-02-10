@@ -18,7 +18,6 @@ export function Joana() {
           Joana, a doguinha
         </SectionTitle>
 
-        {/* Foto destaque da Joana */}
         <motion.button
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
@@ -40,11 +39,10 @@ export function Joana() {
 
         <GlassCard className="mb-8 text-center">
           <p className="text-base text-text-secondary md:text-lg">
-            A Joana tambem concorda que voce e perfeita.
+            A Joana também concorda que você é incrível.
           </p>
         </GlassCard>
 
-        {/* Videos */}
         <div className="mb-8 space-y-4">
           {joanaVideos.map((video, i) => (
             <motion.div
@@ -59,7 +57,6 @@ export function Joana() {
           ))}
         </div>
 
-        {/* Selo Joana de aprovacao */}
         <div className="text-center">
           <motion.button
             onClick={() => setApproved(!approved)}
@@ -71,7 +68,7 @@ export function Joana() {
               <circle cx="12" cy="12" r="10" />
               <path d="M8 12l3 3 5-5" />
             </svg>
-            Selo Joana de aprovacao
+            Selo Joana de aprovação
           </motion.button>
 
           <AnimatePresence>

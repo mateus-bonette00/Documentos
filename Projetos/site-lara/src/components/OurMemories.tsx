@@ -14,16 +14,16 @@ export function OurMemories() {
   return (
     <Section className="bg-gradient-to-b from-cream to-sunshine-50">
       <div className="mx-auto max-w-2xl">
-        <SectionTitle subtitle="So aparece se voce quiser. Mas eu amo a gente.">
-          Nossas lembrancas
+        <SectionTitle subtitle="Só aparece se você quiser. Mas eu amo a gente.">
+          Nossas lembranças
         </SectionTitle>
 
         <GlassCard className="mb-8">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-sm font-semibold text-text-primary">Modo timida</p>
+              <p className="text-sm font-semibold text-text-primary">Modo tímida</p>
               <p className="mt-1 text-xs text-text-muted">
-                {showPhotos ? 'As fotos estao aparecendo' : 'As fotos estao escondidas'}
+                {showPhotos ? 'As fotos estão aparecendo' : 'As fotos estão escondidas'}
               </p>
             </div>
             <button
@@ -56,7 +56,7 @@ export function OurMemories() {
             onPhotoClick={setLightboxSrc}
           />
           <p className="mt-4 text-center text-sm italic text-text-muted">
-            Eu gosto da gente. Mesmo quando voce faz careta na foto.
+            Eu gosto da gente. Mesmo quando você faz careta na foto.
           </p>
         </motion.div>
 
@@ -66,7 +66,7 @@ export function OurMemories() {
             animate={{ opacity: 1 }}
             className="text-center text-sm italic text-text-muted"
           >
-            Quando estiver pronta, e so ligar o toggle ali em cima.
+            Quando estiver pronta, é só ligar o toggle ali em cima.
           </motion.p>
         )}
       </div>

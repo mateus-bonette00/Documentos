@@ -12,14 +12,14 @@ export function Friends() {
   return (
     <Section className="bg-gradient-to-b from-sunshine-50 to-cream">
       <div className="mx-auto max-w-2xl">
-        <SectionTitle subtitle="Voce tem pessoas que te amam.">
+        <SectionTitle subtitle="Você tem pessoas que te amam.">
           Amigos e momentos felizes
         </SectionTitle>
 
         <GlassCard className="mb-8">
           <p className="text-base leading-relaxed text-text-secondary md:text-lg">
-            Voce tem pessoas que te amam. Eu sou so uma delas,
-            mas eu faco questao.
+            Você tem pessoas que te amam. Eu sou só uma delas,
+            mas eu faço questão.
           </p>
         </GlassCard>
 

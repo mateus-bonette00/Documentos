@@ -11,10 +11,9 @@ export function Footer() {
           Feito com cuidado, por quem te admira.
         </p>
         <p className="mt-1 text-xs text-text-muted/60">
-          -- Mateus
+          — Mateus
         </p>
 
-        {/* Easter Egg: coracao escondido */}
         <div className="mt-6 flex justify-center">
           <motion.button
             onClick={() => setEasterEgg(!easterEgg)}
@@ -39,10 +38,10 @@ export function Footer() {
             >
               <div className="rounded-xl bg-sunshine-100/60 px-4 py-3 backdrop-blur-sm">
                 <p className="text-sm font-medium text-text-primary">
-                  Diagnostico: voce e incrivel.
+                  Diagnóstico: você é incrível.
                 </p>
                 <p className="mt-1 text-sm font-medium text-sunshine-700">
-                  Prognostico: eu te amo.
+                  Prognóstico: eu te amo.
                 </p>
               </div>
             </motion.div>

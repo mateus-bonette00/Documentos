@@ -40,9 +40,9 @@ export interface Video {
 }
 
 export const childhoodPhotos: Photo[] = [
-  { src: laraJovem, alt: 'Lara jovem', caption: 'O comeco de tudo' },
-  { src: laraJovem2, alt: 'Lara jovem', caption: 'Ja com esse brilho no olhar' },
-  { src: laraJovem3, alt: 'Lara jovem', caption: 'Quem diria que ia virar medica?' },
+  { src: laraJovem, alt: 'Lara jovem', caption: 'O começo de tudo' },
+  { src: laraJovem2, alt: 'Lara jovem', caption: 'Já com esse brilho no olhar' },
+  { src: laraJovem3, alt: 'Lara jovem', caption: 'Quem diria que ia virar médica?' },
   { src: laraJovem4, alt: 'Lara jovem' },
   { src: laraJovem5, alt: 'Lara jovem' },
 ]
@@ -69,7 +69,7 @@ export const joanaVideos: Video[] = [
   {
     src: videoBrincando,
     title: 'Lara brincando com a Joana',
-    caption: 'Dois amores numa cena so',
+    caption: 'Dois amores numa cena só',
   },
   {
     src: videoPasseando,
@@ -94,72 +94,74 @@ export const friendsPhotos: Photo[] = [
 ]
 
 export const specialPhotos: Photo[] = [
-  { src: laraComBuque, alt: 'Lara com buque', caption: 'Linda' },
+  { src: laraComBuque, alt: 'Lara com buquê', caption: 'Linda' },
   { src: laraFormatura, alt: 'Lara na formatura', caption: 'Formatura maravilhosa' },
 ]
 
 export const surgeryPhoto: Photo = {
   src: laraPijamaCirurgico,
-  alt: 'Lara de pijama cirurgico',
+  alt: 'Lara de pijama cirúrgico',
   caption: 'No ambiente dela',
 }
 
-// Galeria IA de cirurgia - facilmente expandivel
-// Para adicionar mais imagens IA, basta importar acima e adicionar aqui
 export const surgeryIAPhotos: Photo[] = [
   {
     src: laraCirurgiaIA,
-    alt: 'Lara cirurgia em versao IA',
-    caption: 'Lara cirurgia em versao IA -- a inteligencia artificial tambem sabe que ela e incrivel',
+    alt: 'Lara cirurgiã em versão IA',
+    caption: 'Lara cirurgiã em versão IA — até a inteligência artificial sabe que ela é incrível',
   },
-  // Adicione mais imagens aqui:
-  // { src: importedImage, alt: 'Descricao', caption: 'Legenda' },
 ]
 
 export const superpowers = [
-  'Maos firmes',
-  'Coracao gigante',
-  'Coragem',
-  'Cafe como combustivel',
-  'E um charme que desarma qualquer plantao',
+  'Mãos firmes',
+  'Coração gigante',
+  'Coragem de sobra',
+  'Café como combustível',
+  'Determinação que não acaba',
+  'E um charme que desarma qualquer plantão',
 ]
 
 export const italyCities = [
   {
     name: 'Roma',
-    description: 'O Coliseu, a historia, e jogar moeda na Fontana di Trevi.',
+    description: 'Andar de mãos dadas pelas ruínas, jogando moeda na Fontana di Trevi e pedindo pra voltar juntos.',
     icon: '🏛️',
   },
   {
-    name: 'Florenca',
-    description: 'Arte, pontes e o melhor gelato que existe.',
+    name: 'Florença',
+    description: 'Comer gelato sentados na beira do Arno enquanto o sol se põe devagar sobre as pontes.',
     icon: '🌻',
   },
   {
     name: 'Veneza',
-    description: 'Gondolas, canais e aquele entardecer que parece mentira.',
+    description: 'Uma gôndola, um entardecer dourado e o silêncio bom de quem não precisa dizer nada.',
     icon: '🛶',
   },
   {
     name: 'Costa Amalfitana',
-    description: 'Estradas na beira do mar, vilas coloridas e limoncello.',
+    description: 'Estradas na beira do mar, vilas coloridas e o cheiro de limoncello misturado com brisa do mar.',
     icon: '🍋',
+  },
+  {
+    name: 'Nápoles',
+    description: 'A pizza mais honesta do mundo, ruas vivas e aquela energia que só o sul da Itália tem.',
+    icon: '🍕',
   },
 ]
 
 export const emergencyMessages = [
-  'Voce ja passou por tanta coisa. E venceu todas.',
-  'Nao precisa ser forte o tempo todo. Pode descansar.',
-  'Eu estou aqui. Nao como solucao, mas como companhia.',
-  'Curiosidade medica: sorrir libera serotonina. Entao faz de conta que eu contei uma piada boa.',
-  'Voce e suficiente.',
-  'Respira. Eu estou com voce.',
+  'Você já passou por tanta coisa. E venceu todas.',
+  'Não precisa ser forte o tempo todo. Pode descansar.',
+  'Eu estou aqui. Não como solução, mas como companhia.',
+  'Curiosidade médica: sorrir libera serotonina. Então faz de conta que eu contei uma piada boa.',
+  'Você é suficiente.',
+  'Respira. Eu estou com você.',
 ]
 
 export const firstImpressions = [
   'Meu Deus, que sorriso.',
-  'Ela e inteligente de um jeito absurdo.',
-  'Eu vou fazer questao de cuidar desse coracao.',
+  'Ela é inteligente de um jeito absurdo.',
+  'Eu vou fazer questão de cuidar desse coração.',
 ]
 
 export const ACCESS_CODE = 'joana'
